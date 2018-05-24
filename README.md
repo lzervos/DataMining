@@ -9,7 +9,8 @@
 
 **Now about the code:**
 
-  *In the main.py s all the code that refers to the wordclouds and the various classifiers*
+  *In the main.py is the code that refers to the wordclouds and the various classifiers*
+  
   *In the KNN.py is the implementation of a K Nearest Neighbors(KNN) classifier*
 
 **Run the main.py and you will see for output the CSV files and the WordClouds**
