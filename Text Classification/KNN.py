@@ -31,10 +31,10 @@ class KNN(object):
         return majority[1]
 
     def _classes_instances(self, distances):
-        #cl_inst=[(1,y) for x,y in distances]
-        #return cl_inst
+        #cl_inst=[(1,y) for x,y in distances]   
+        #return cl_inst   This is the Majority Voting method
         cl_inst = [(1,y) for x,y in distances if x == 0]
-        return cl_inst if cl_inst else [(1/x, y) for x, y in distances] #After we have found the k n$
+        return cl_inst if cl_inst else [(1/x, y) for x, y in distances] #This is the Distance Weighted method
 
     def predict(self, X):
         #Calling instance prediction for each instance
