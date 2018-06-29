@@ -14,3 +14,7 @@
   *In the KNN.py is the implementation of a K Nearest Neighbors(KNN) classifier*
 
 **Run the main.py and you will see for output the CSV files and the WordClouds**
+
+__License__ 
+
+This project is released under the MIT License
