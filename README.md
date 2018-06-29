@@ -15,6 +15,6 @@
 
 **Run the main.py and you will see for output the CSV files and the WordClouds**
 
-__License__ 
+<strong> License </strong> 
 
 This project is released under the MIT License
