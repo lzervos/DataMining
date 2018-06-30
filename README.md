@@ -1,19 +1,24 @@
-# This repository is about Data Mining,Machine Learning and generally Data Science
+# Data Mining, Machine Learning and Data Science: Text Classification Project
+*Written in Python2 and developed using Anaconda*
 
-*The text classification project was written in Python 2 and developed in Anaconda Environment*
+## Installation
 
-**If you do not have Anaconda,download it from:** https://www.anaconda.com/download/
+1. Download and setup [Anaconda](https://www.anaconda.com/download/ "Download")
+2. Create a working environment.
+3. Install wordcloud using Anaconda:
+ > `conda install -c conda-forge wordcloud`
 
-*When you download and install Anaconda,install wordcloud package with the command 
-"conda install -c conda-forge wordcloud" and you will be ready to execute the project*
+**You are ready to execute the project**
 
-**Now about the code:**
+## Implementation Details
 
-  *In the main.py is the code that refers to the wordclouds and the various classifiers*
-  
-  *In the KNN.py is the implementation of a K Nearest Neighbors(KNN) classifier*
+*Details about the K Nearest Neighbour classifier can be found in KNN.py*
 
-**Run the main.py and you will see for output the CSV files and the WordClouds**
+## Execution
+
+1. Open and examine the main.py file which drives the project.
+2. Run main.py:
+ > *main.py will output information into CSV files and create Wordcloud images*
 
 <strong> License </strong> 
 
